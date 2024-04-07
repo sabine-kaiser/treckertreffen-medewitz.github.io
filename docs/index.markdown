@@ -5,7 +5,6 @@
 layout: home
 title: Treckertreffen Medewitz
 ---
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,9 +18,6 @@ title: Treckertreffen Medewitz
 <body>
 	<div id="app">
 		<header>
-			<h1>
-				GeeksforGeeks
-			</h1>
 			<h1>
 				Treckertreffen Medewitz
 			</h1>

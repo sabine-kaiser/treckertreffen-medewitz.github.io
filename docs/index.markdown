@@ -47,7 +47,7 @@ title: Treckertreffen Medewitz
 		<main>
 			<div id="content">
         <img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-12.png">
+"/images/168193750-banner-für-landwirtschaftliche-betriebe-traktor-der-feld-an-der-frühlingsvektorillustration.jpeg">
 				<h2>Welcome to this test page</h2>
 				<p>
 					Placeholder for the new website

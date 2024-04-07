@@ -47,7 +47,7 @@ title: Treckertreffen Medewitz
 		<main>
 			<div id="content">
         <img src=
-"docs/images/168193750-banner-für-landwirtschaftliche-betriebe-traktor-der-feld-an-der-frühlingsvektorillustration.jpeg">
+"images/168193750-banner-für-landwirtschaftliche-betriebe-traktor-der-feld-an-der-frühlingsvektorillustration.jpeg">
 				<h2>Welcome to this test page</h2>
 				<p>
 					Placeholder for the new website

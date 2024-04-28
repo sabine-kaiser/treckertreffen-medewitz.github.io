@@ -337,7 +337,7 @@ nav ul li ul li a:hover {
       -ms-flex-align: center;
           align-items: center;
   background-size: cover;
-  background-image: url("images/treckertreffen_banner_gradient.png");
+  background-image: url("/docs/images/treckertreffen_banner_gradient.png");
   background-position: bottom;
   height: 600px;
   text-align: center;
@@ -362,7 +362,7 @@ nav ul li ul li a:hover {
       -ms-flex-align: center;
           align-items: center;
   background-size: cover;
-  background-image: url("images/treckertreffen_banner_gradient.png");
+  background-image: url("/docs/images/treckertreffen_banner_gradient.png");
   background-position: bottom;
   height: 200px;
   text-align: left;

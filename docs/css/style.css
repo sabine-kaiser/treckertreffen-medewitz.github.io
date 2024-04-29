@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
 .container { scroll-behavior: smooth; }
 
+/*
+dark red #DB3545
+red #f3312c
+*/
+
 body {
   font-family: 'Lato', sans-serif;
   color: #040000;
@@ -82,7 +87,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #f3312c;
+  background-color: #DB3545;
 /*  background-color: #fff9f0ff;*/
 }
 
@@ -222,9 +227,10 @@ nav ul li ul li a:hover {
 }
 
 .custom_nav-container .navbar-toggler {
+  margin: 10px;
   padding: 0;
-  width: 37px;
-  height: 42px;
+  width: 28px;
+  height: 35px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -233,7 +239,7 @@ nav ul li ul li a:hover {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000000;
+  background-color: #fff9f0ff;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -249,7 +255,7 @@ nav ul li ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #fff9f0ff;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -499,6 +505,37 @@ nav ul li ul li a:hover {
   fill: #ffffff;
 }
 
+
+.highlights-section {
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+.highlights-section span {
+/*-webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px 10px;*/
+  font-family: 'Big Shoulders Display';
+  font-size: 50px;
+  font-weight: 10;
+  margin: 20px 20px;
+  color:#2b8c99cf;
+
+}
+
 .introduction_section {
 -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -515,7 +552,9 @@ nav ul li ul li a:hover {
           align-items: center;
   text-align: center;
   margin: 20px 20px;
-  padding: 50px 50px;
+    margin-left: 90px;
+    margin-right: 90px; 
+
   justify-content: center;
 
 }
@@ -559,7 +598,7 @@ nav ul li ul li a:hover {
   text-align: justify;
 }
 
-.about_section .detail-box a {
+/*.about_section .detail-box a {
   margin-top: 15px;
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
@@ -570,11 +609,11 @@ nav ul li ul li a:hover {
   border-radius: 2px;
   color: #ffffff;
 }
-
-.about_section .detail-box a:hover {
+*/
+/*.about_section .detail-box a:hover {
   background-color: transparent;
   color: #0355cc;
-}
+}*/
 
 .about_section .img-box img {
   width: 100%;
@@ -604,14 +643,29 @@ nav ul li ul li a:hover {
     margin-bottom: 20px;
 }
 
+
+#beachbeatz-section ul {
+    text-align: left;
+}
+#beachbeatz-section .einlass-eintritt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  margin: 20px 20px;
+  color:#8d3d62;
+}
+
+
 #mallorcaparty-section {
     text-align: center;
     margin-top: 20px;
     margin: 50px 50px;
     margin-bottom: 20px;
 }
+
 #mallorcaparty-section p{
-    text-align: justify;
+    text-align: center;
 }
 
 #mallorca {
@@ -627,6 +681,19 @@ nav ul li ul li a:hover {
 
 }
 
+
+#mallorcaparty-section ul {
+    text-align: left;
+}
+#mallorcaparty-section .einlass-eintritt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  margin: 20px 20px;
+  color:#00c4cf;
+}
+
 #treckertreffen-section {
     text-align: center;
     margin-top: 20px;
@@ -640,9 +707,29 @@ nav ul li ul li a:hover {
     margin-bottom: 20px;
 }
 
+
+
 #treckertreffen-section p {
     text-align: justify;
 }
+
+#treckertreffen-section ul {
+    text-align: left;
+}
+#treckertreffen-section .einlass-eintritt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  margin: 20px 20px;
+  color:#DB3545;
+}
+
+#anfahrt-section div{
+    text-align: left;
+}
+
+
 
 .professional_section {
   background-color: #fff9f0ff;
@@ -868,7 +955,7 @@ nav ul li ul li a:hover {
   padding-left: 25px;
   background-color: #ffffff;
   outline: none;
-  color: #ffffff;
+  color: black;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
@@ -899,8 +986,8 @@ nav ul li ul li a:hover {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 55px;
-  background-color: #0355cc;
-  border: 1px solid #0355cc;
+  background-color: #DB3545;
+  border: 1px solid #DB3545;
   border-radius: 0;
   color: #ffffff;
   margin-top: 15px;
@@ -909,14 +996,6 @@ nav ul li ul li a:hover {
 .contact_section button:hover {
   background-color: transparent;
   color: #0355cc;
-}
-
-.contact_section .map_container {
-  height: 360px;
-}
-
-.contact_section .map_container .map {
-  height: 100%;
 }
 
 .info_section {
@@ -1028,7 +1107,7 @@ nav ul li ul li a:hover {
 
 /* footer section*/
 .footer_section {
-  background-color: #0a0f43;
+  background-color: #2b8c99cf;
 }
 
 .footer_section p {
@@ -1048,6 +1127,21 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  text-align: center;
+}
+#btn-back-to-top  svg {
+/*  width: 10%;
+  max-height: 10%;*/
+  fill: white;
+/*  -webkit-transition: all 0.3s;
+  transition: all 0.3s;*/
 }
 
 /* end footer section*/

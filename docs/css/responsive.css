@@ -38,16 +38,16 @@
 
 @media (max-width: 767px) {
     .layout_padding {
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .layout_padding-top {
-        padding-top: 90px;
+        padding-top: 30px;
     }
 
     .layout_padding-bottom {
-        padding-bottom: 90px;
+        padding-bottom: 30px;
     }
 
     .slider_section .detail-box {
@@ -80,8 +80,26 @@
         height: 90%;
         top: 25px;
     }
+
+.introduction_section {
+    margin-left: 20px;
+    margin-right: 20px; 
+
+}
+.pipe {
+   display: none;
+        }
+
+.responsive {
+    display: inline-block;
+        }
+
+
         #treckertreffen-section span {
     display: inline-block;
+        }
+        #treckertreffen-section span.pipe {
+    display: none;
         }
 
         #beachbeatz-section {

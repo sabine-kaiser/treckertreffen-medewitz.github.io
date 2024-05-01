@@ -94,6 +94,18 @@
     display: inline-block;
         }
 
+       #beachbeatz-section span {
+    display: inline-block;
+        }
+        #beachbeatz-section span.pipe {
+    display: none;
+        }
+       #mallorcaparty-section span {
+    display: inline-block;
+        }
+        #mallorcaparty-section span.pipe {
+    display: none;
+        }
 
         #treckertreffen-section span {
     display: inline-block;
@@ -104,7 +116,7 @@
 
         #beachbeatz-section {
 
-    margin: 10px 10px;
+    margin: 0px 0px;
 }
       #beachbeatz-section h5{
 
@@ -112,7 +124,7 @@
 }
         #mallorcaparty-section {
 
-    margin: 10px 10px;
+    margin: 0px 0px;
 }
    #mallorcaparty-section h5{
 
@@ -121,7 +133,7 @@
 
     #treckertreffen-section {
 
-    margin: 10px 10px;
+    margin: 0px 0px;
 }
    #treckertreffen-section h5{
 

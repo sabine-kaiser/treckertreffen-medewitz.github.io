@@ -34,6 +34,33 @@
         padding: 90px 0;
     }
 
+.pipe {
+   display: none;
+        }
+
+.responsive-br {
+    display: inline-block;
+        }
+
+   #beachbeatz-section span {
+    display: inline-block;
+        }
+        #beachbeatz-section span.pipe {
+    display: none;
+        }
+       #mallorcaparty-section span {
+    display: inline-block;
+        }
+        #mallorcaparty-section span.pipe {
+    display: none;
+        }
+
+        #treckertreffen-section span {
+    display: inline-block;
+        }
+        #treckertreffen-section span.pipe {
+    display: none;
+        }
 
 }
 
@@ -74,31 +101,15 @@
         margin-bottom: 45px;
     }
 
-
-    .contact_section form {
-        margin-bottom: 45px;
-    }
-
-    .info_section .info_items::before {
-        width: 1px;
-        height: 90%;
-        top: 25px;
-    }
-
-.introduction_section {
-    margin-left: 20px;
-    margin-right: 20px; 
-
-}
 .pipe {
    display: none;
         }
 
-.responsive {
+.responsive-brs {
     display: inline-block;
         }
-
-       #beachbeatz-section span {
+    
+   #beachbeatz-section span {
     display: inline-block;
         }
         #beachbeatz-section span.pipe {
@@ -117,6 +128,23 @@
         #treckertreffen-section span.pipe {
     display: none;
         }
+
+    .contact_section form {
+        margin-bottom: 45px;
+    }
+
+    .info_section .info_items::before {
+        width: 1px;
+        height: 90%;
+        top: 25px;
+    }
+
+.introduction_section {
+    margin-left: 20px;
+    margin-right: 20px; 
+
+}
+    
 
         #beachbeatz-section {
 
